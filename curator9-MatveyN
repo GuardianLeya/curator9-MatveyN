@@ -1,0 +1,6 @@
+[program:curator9-MatveyN]
+command=python3 /home/curator9/curator9-MatveyN/main.py
+autostart=true
+autorestart=true
+stderr_logfile=/home/curator9/curator9-MatveyN/test.err.log
+stdout_logfile=/home/curator9/curator9-MatveyN/test.out.log
